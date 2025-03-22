@@ -1,0 +1,5 @@
+Flask
+requests
+rich
+pycryptodome
+protobuf_decoder
