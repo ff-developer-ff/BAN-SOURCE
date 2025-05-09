@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: my-python-app
+    env: python
+    buildCommand: ""
+    startCommand: python app.py
+    runtime: python
+    pythonVersion: 3.8
+    region: oregon
+    plan: free
+    branch: main
+    autoDeploy: true
+    
